@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM Validation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+    <img src="./google.webp" alt="">
+<div class="container">
+    <form id="form">
+      
+        <div class="title"> get started</div>
+         <p>Already have on account?</p>
+        <h4><i class="fa-brands fa-google"></i> Login</h4>
+         <p>Or</p>
+        
+        <div>
+            <label for="username">User Name</label>
+            <i class="fa-solid fa-user"></i>
+            <input type="Name" placeholder="name" name="username" id="username">
+            <i class="fa-solid fa-circle-exclamation failure-icon"></i>
+            <i class="fa-regular fa-circle-check success-icon"></i>
+            <div class="error"></div>
+        </div>
+            
+        <div>
+            <label for="email">Email</label>
+            <i class="fa-solid fa-envelope"></i>
+            <input type="Email" placeholder="abc@gmail.com" name="email" id="email">
+            <i class="fa-solid fa-circle-exclamation failure-icon"></i>
+            <i class="fa-regular fa-circle-check success-icon"></i> 
+            <div class="error"></div>
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <i class="fa-solid fa-lock"></i>
+            <input type="Password" placeholder="password here" name="password" id="password">
+            <i class="fa-solid fa-circle-exclamation failure-icon"></i>
+            <i class="fa-regular fa-circle-check success-icon"></i>
+            <div class="error"></div>
+        </div>
+        <button type="submit" id="submit">Submit</button>
+
+    </form>
+
+</div>
+
+
+    <script src="./form.js"></script>
+</body>
+</html>
